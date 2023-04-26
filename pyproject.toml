@@ -1,0 +1,21 @@
+[project]
+name = "moodle2portico"
+version = "0.0.1"
+description = "A library to ease the process to collect marks on Moodle to pass them to Portico."
+license = {file = "LICENSE"}
+authors = [
+    {name="Ben Waugh", email="b.waugh@ucl.ac.uk"},
+]
+maintainers = [
+    {name="Ben Waugh", email="b.waugh@ucl.ac.uk"},
+    {name="David Perez-Suarez", email="d.perez-suarez@ucl.ac.uk"},
+]
+readme = "README.md"
+dependencies = [
+    'mechanize >= 0.4.0'
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
